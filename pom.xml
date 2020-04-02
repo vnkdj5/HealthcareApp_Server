@@ -21,11 +21,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 	</properties>
-<configuration>
-  <processTypes>
-     <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
-  </processTypes>
-</configuration>
+
 	<dependencies>
 
 		<dependency>
